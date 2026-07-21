@@ -1,0 +1,24 @@
+{
+  "name": "webproxy",
+  "version": "1.0.0",
+  "description": "Web-based URL proxy to bypass CORS and view remote pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:41729/git/ruk13xa/WebProxy"
+  },
+  "keywords": [
+    "proxy",
+    "cors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
